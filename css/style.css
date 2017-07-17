@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#page_wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #262626;
+}
+
+header{
+    height: 100px;
+    padding: 10px;
+    background-color: #292939;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+h1{
+    color: whitesmoke;
+    display: inline-block;
+}
+
+header > div {
+    font-style: italic;
+    color: whitesmoke;
+}
+
+#main_content{
+    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main_content:first-child{
+    text-align: center;
+    color: whitesmoke;
+} 
+
+#tagline{
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+#button{
+     margin-bottom: 2rem;
+     width: 60px;
+     border-radius: 5px;
+     border: 1px solid whitesmoke;
+     background-color: #292939;
+    color: whitesmoke;
+    transition: width 1s ease;
+}
+
+#button:hover{
+    width: 80px;
+    transition: width 1s ease;
+}
+
+#output{
+    font-weight: bold;
+}
+
+footer{
+    height: 100px;
+    padding: 10px;
+    background-color: #292939;
+}
+
+#copyright{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.social-share{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    float: right;
+    margin-left: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+        
+    #main_content{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #main_content{
+        height:800px;
+    }
+    
+}
+
+
